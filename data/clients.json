@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "name": "Sara",
+    "age": 34,
+    "presentingIssue": "anxiety",
+    "notes": [
+      {
+        "sessionNumber": 1,
+        "content": "The client attended the session appearing slightly fatigued but engaged throughout the conversation. She reported ongoing anxiety related to her work environment, particularly around performance expectations and fear of making mistakes. The client described experiencing racing thoughts at night, which has been affecting her sleep quality over the past week. She noted that she often replays conversations in her mind and worries about how others perceive her. During the session, the client was able to identify a pattern of perfectionistic thinking and acknowledged that she tends to be overly critical of herself. We explored some initial coping strategies, including grounding techniques and setting small, realistic goals for the week. The client expressed openness to trying these strategies but also shared doubts about her ability to maintain consistency. Overall, she demonstrated insight into her thought patterns and showed motivation for change.",
+        "date": "2026-04-23"
+      },
+      {
+        "sessionNumber": 2,
+        "content": "The client returned for the second session reporting a slight improvement in her awareness of anxious thoughts but continued difficulty managing them consistently. She shared that she attempted to use grounding techniques during moments of stress, particularly at work, and found them somewhat helpful in reducing immediate anxiety. However, she noted that nighttime overthinking remains a significant challenge, especially before sleep. The client described a recent situation where she felt overwhelmed after receiving feedback from her supervisor, which triggered self-doubt and negative self-talk. During the session, we explored the connection between her perfectionistic beliefs and her emotional reactions. The client was able to recognize how her internal standards may be unrealistic. We introduced the idea of cognitive restructuring and discussed how to gently challenge automatic negative thoughts. She expressed willingness to practice this technique but acknowledged it may feel difficult at first. Overall, the client remains engaged and motivated to improve her coping skills.",
+        "date": "2026-04-23"
+      }
+    ],
+    "geminiAnalysis": {
+      "presentingConcerns": "The client experiences ongoing work-related anxiety, driven by performance expectations and fear of making mistakes, leading to significant rumination and sleep disturbance. She also struggles with self-doubt, especially after receiving feedback, and worries about others' perceptions of her.",
+      "automaticThoughts": [
+        "I will make a mistake.",
+        "Others will perceive me negatively.",
+        "I am not good enough.",
+        "I can't consistently manage my anxiety.",
+        "I am overwhelmed.",
+        "I am failing/flawed (after feedback)."
+      ],
+      "emotions": [
+        "anxiety",
+        "fatigue",
+        "doubt",
+        "overwhelmed"
+      ],
+      "behaviors": [
+        "rumination (replaying conversations, nighttime overthinking)",
+        "self-criticism",
+        "attempting grounding techniques",
+        "setting small, realistic goals"
+      ],
+      "possibleCoreBeliefs": [
+        "I must be perfect to be acceptable.",
+        "My worth is dependent on my performance.",
+        "I am fundamentally flawed/not good enough."
+      ],
+      "cognitiveDistortions": [
+        "all-or-nothing thinking",
+        "mind-reading",
+        "self-blame/self-criticism",
+        "catastrophising",
+        "should statements"
+      ],
+      "suggestedCBTFocus": "Continue practicing cognitive restructuring techniques, focusing on identifying and gently challenging perfectionistic thoughts and self-doubt, especially concerning feedback and sleep-related rumination."
+    }
+  },
+  {
+    "id": 2,
+    "name": "Kia",
+    "age": 10,
+    "presentingIssue": "Autism",
+    "notes": [
+      {
+        "sessionNumber": 1,
+        "content": "The child entered the session with limited eye contact and initially avoided interaction, preferring to engage with a sensory toy in the corner of the room. He appeared sensitive to environmental stimuli, particularly noise, covering his ears when sounds increased. Gradually, with the use of structured play and visual supports, he became more engaged and tolerated short periods of back-and-forth interaction. The child demonstrated strong interest in trains and was able to share factual information, which was used therapeutically to build connection. However, transitions between activities were challenging and led to mild frustration. He showed signs of anxiety when routines were changed unexpectedly. Parent reported recent difficulties with emotional regulation at school, especially during transitions. The session focused on establishing rapport, supporting regulation through sensory input, and introducing predictable routines.",
+        "date": "2026-04-23"
+      },
+      {
+        "sessionNumber": 2,
+        "content": "The child entered the session more calmly compared to the previous session and showed quicker engagement when familiar materials were presented. He responded positively to the use of a visual schedule, which appeared to reduce anxiety during transitions. Eye contact remained limited but improved slightly during preferred activities. The child was able to participate in short structured turn-taking activities, maintaining interaction for a longer duration than in the previous session. He continued to show distress when unexpected changes occurred but was able to recover more quickly with verbal and visual reassurance. Parent reported a slight improvement in school behavior when teachers used visual cues and gave advance warnings for transitions. The session focused on strengthening communication, increasing tolerance for transitions, and reinforcing emotional regulation strategies.",
+        "date": "2026-04-23"
+      }
+    ],
+    "geminiAnalysis": {
+      "presentingConcerns": "The client presents with challenges in social interaction, including limited eye contact and initial avoidance, along with sensitivity to environmental stimuli. A primary concern is difficulties with emotional regulation, especially during transitions and when routines are changed unexpectedly, leading to anxiety and distress. Progress has been noted in quicker engagement and recovery from distress in the second session.",
+      "automaticThoughts": [
+        "Something bad will happen if the routine changes.",
+        "I need things to be predictable.",
+        "This noise is too much."
+      ],
+      "emotions": [
+        "anxiety",
+        "frustration",
+        "distress"
+      ],
+      "behaviors": [
+        "limited eye contact",
+        "avoidance of interaction",
+        "engaging with sensory toys",
+        "covering ears",
+        "difficulty with transitions",
+        "strong interest in specific topics (trains)",
+        "improved engagement with structured play/visual supports",
+        "quicker engagement with familiar materials",
+        "quicker recovery from distress with reassurance"
+      ],
+      "possibleCoreBeliefs": [
+        "The world is unpredictable/unsafe.",
+        "I cannot cope with unexpected things."
+      ],
+      "cognitiveDistortions": [
+        "catastrophising",
+        "emotional reasoning"
+      ],
+      "suggestedCBTFocus": "Continue reinforcing emotional regulation strategies and predictability through visual supports, while gradually introducing and building tolerance for minor variations in routine to enhance flexibility and coping skills."
+    }
+  }
+]
