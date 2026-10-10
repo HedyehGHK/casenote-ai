@@ -21,15 +21,22 @@ function App() {
   const [noteContent, setNoteContent] = useState("");
   const [noteDate, setNoteDate] = useState("");
 
-  useEffect(() => {
-    fetchClients();
-  }, []);
-
   const fetchClients = async () => {
-    const res = await fetch(`${API}/clients`);
-    const data = await res.json();
-    setClients(data.clients);
-  };
+  const res = await fetch(`${API}/clients`);
+  const data = await res.json();
+  setClients(data.clients);
+};
+
+useEffect(() => {
+  fetch(`${API}/clients`)
+    .then((res) => res.json())
+    .then((data) => {
+      setClients(data.clients);
+    })
+    .catch((error) => {
+      console.error("Failed to load clients:", error);
+    });
+}, []);
 
   const addClient = async (e) => {
     e.preventDefault();
